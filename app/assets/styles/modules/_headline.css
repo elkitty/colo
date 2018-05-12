@@ -6,11 +6,11 @@
 		font-size: 2.25rem;
 	}
 
-	&--centered {
+	&__centered {
 		text-align: center;
 	}
 
-	&--small {
+	&__small {
 		font-weight: 300;
 		font-size: 1rem;
 		color: $mainBlue;
@@ -20,19 +20,24 @@
 	}
 	}
 
-	&--narrow {
+	&__narrow {
 		max-width: 900px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 
-	&--b-margin-small {
-		margin-bottom: 2rem;
-
-
+	&__b-margin-small {
+		margin-bottom: rem;
 	}
 
-	&--b-margin-large {
+
+	&__t-margin-large {
+		margin-top: 4rem;
+	}
+
+
+
+	&__b-margin-large {
 		margin-bottom: 3.3rem;
 	}
 

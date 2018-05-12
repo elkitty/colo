@@ -1,0 +1,34 @@
+.software {
+	background-color: #0e3d51;
+	padding: 0 2.9rem 1px 2.9rem ;
+
+	&__title {
+		font-size: 2.2rem;
+		color: #fff;
+		text-align: center;
+		font-weight: 100;
+		margin: 0px;
+		padding-top: 3.125rem;
+	}
+
+	&__subtitle {
+		font-size: 1.45rem;
+		color: #fff;
+		text-align: center;
+		font-weight: 300;
+		margin: 1rem 0 2rem 0;
+	}
+
+	&__p {
+		font-size: 1.2rem;
+		line-height: 1.4;
+		color: #fff;
+		text-align: center;
+		font-weight: 100;
+		max-width: 450px;
+		margin: 0 auto 0 auto;
+	}
+
+
+}
+
