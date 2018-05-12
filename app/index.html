@@ -13,25 +13,35 @@
 </head>
 
 <body>
-  <header>
-    <img src="assets/images/logos/cologistics-logo-w.svg">
-    <a href="#" class="btn">Contactanos</a>
-    <nav>
-      <ul>
-        <li><a href="#our-beginning">¿Que ofrecemos?</a></li>
-        <li><a href="#features">Beneficios</a></li>
-        <li><a href="#testimonials">Caraterísticas</a></li>
-      </ul>
-    </nav>
+  <header class="site-header">
+    <div class="wrapper">
+      <div class="site-header__logo">
+        <img src="assets/images/logos/cologistics-logo-w.svg">
+      </div>
+      <div class="site-header__btn-container">
+        <a href="#" class="btn">Contactanos</a>
+      </div>
+      <nav class="primary-nav primary-nav--pull-right">
+        <ul>
+          <li><a href="#our-beginning">¿Que ofrecemos?</a></li>
+          <li><a href="#features">Beneficios</a></li>
+          <li><a href="#testimonials">Caraterísticas</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
 
   <div class="large-hero">
-    <picture>
-      <source srcset="assets/images/hero--large.jpg" media="(min-width: 1380px)">
-      <source srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
-      <source srcset="assets/images/hero--small.jpg" media="(min-width: 640px)">
-      <img src="assets/images/hero--smaller.jpg" alt="Cologistics Warehouse"> 
-    </picture>
+    <div class="large-hero__background-cont">
+      <picture>
+        <source srcset="assets/images/hero--large.jpg" media="(min-width: 1380px)">
+        <source srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
+        <source srcset="assets/images/hero--small.jpg" media="(min-width: 640px)">
+        <img src="assets/images/hero--smaller.jpg" alt="Cologistics Warehouse">
+      </picture>
+      <div class="large-hero__color-overlay">
+      </div>
+    </div> 
     <div class="large-hero__text-content">
       <div class="wrapper">  
         <h1 class="large-hero__title">Servicios de Logística a la Medida de tu Negocio</h1>

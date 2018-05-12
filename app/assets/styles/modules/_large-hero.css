@@ -1,6 +1,7 @@
 .large-hero {
 	position: relative;
 
+
 	&__text-content {
 		position: absolute;
 		top: 50%;
@@ -32,6 +33,18 @@
 		@mixin atLarge {
 			font-size: 3.75rem;
 		}
+
+
+	}
+
+	&__color-overlay{
+		width: 100%;
+		height: 100%;
+		background-color: $mainBlue;
+		opacity: .7;
+		position: absolute;
+		top: -4px;
+		overflow: hidden;
 
 
 	}

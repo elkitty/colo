@@ -1,0 +1,38 @@
+.primary-nav {
+
+	padding: 21px 0px;
+  /*position: absolute;
+ 	top: 85px;
+ 	right; */
+	
+	&--pull-right {
+		float: right;
+	}
+		
+	ul {
+		margin: 0;
+		padding: 0;
+		@mixin clearfix
+	}
+
+	li {
+		list-style: none;
+		float: left;
+		padding-right: 1.875rem;
+	}
+
+	a {
+		font-family: 'rubik', sans-serif;
+		font-weight: 400;
+		font-size: 1.2rem;
+		color: #fff;
+		text-decoration: none;
+		
+		
+	}	
+
+
+
+
+
+}
