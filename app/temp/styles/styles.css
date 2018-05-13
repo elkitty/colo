@@ -433,7 +433,8 @@ img {
 
 .btn__blue {
 		background-color: #0e3d51;
-		color:  #fff;
+		color:  #ce4ecb;
+		padding: .2rem 1.2rem;
 	}
 
 .btn__features {
@@ -470,7 +471,7 @@ img {
 @media (min-width: 530px) {
 
 .wrapper__b-margin {
-			margin-bottom: 3.875rem
+			margin-bottom: 1.875rem
 
 
 	}
@@ -762,6 +763,76 @@ img {
 		
 		
 	}
+
+.site-footer {
+
+	text-align: center;
+}
+
+.site-footer__logo {
+		display: inline-block;
+		width: 10.9rem;
+		/*top: 3.75rem;*/
+		margin-bottom: 4rem;
+	}
+
+.site-footer__nav ul {
+			display: inline-block;
+			margin: 0;
+			margin-bottom: 2rem;}
+
+.site-footer__nav ul::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+
+.site-footer__nav li {
+			list-style: none;
+			float: left;
+			padding-right: 1.875rem;
+
+		}
+
+.site-footer__nav a {
+			font-family: 'rubik', sans-serif;
+			font-weight: 400;
+			font-size: 1.2rem;
+			color: #0e3d51;
+			text-decoration: none;
+			padding-top: 20px;
+		}
+
+.site-footer__sub-nav ul {
+			display: inline-block;
+			margin: 0;
+			margin-bottom: 2rem;}
+
+.site-footer__sub-nav ul::after {
+	content: "";
+	clear: both;
+	display: table;
+	}
+
+.site-footer__sub-nav li {
+			list-style: none;
+			float: left;
+			padding-right: 1.875rem;
+			font-family: 'rubik', sans-serif;
+			font-weight: 400;
+			font-size: .9rem;
+			color: #8b8b8b;
+
+		}
+
+.site-footer__sub-nav a {
+			font-family: 'rubik', sans-serif;
+			font-weight: 400;
+			font-size: .9rem;
+			color: #8b8b8b;
+			text-decoration: none;
+			padding-top: 20px;
+		}
 
 
 

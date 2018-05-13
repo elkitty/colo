@@ -1,0 +1,70 @@
+.site-footer {
+
+	text-align: center;
+
+	&__logo {
+		display: inline-block;
+		width: 10.9rem;
+		/*top: 3.75rem;*/
+		margin-bottom: 4rem;
+	}
+	
+	
+	&__nav {
+
+
+		ul {
+			display: inline-block;
+			margin: 0;
+			margin-bottom: 2rem;
+			@mixin clearfix
+		}
+
+		li {
+			list-style: none;
+			float: left;
+			padding-right: 1.875rem;
+
+		}
+
+		a {
+			font-family: 'rubik', sans-serif;
+			font-weight: 400;
+			font-size: 1.2rem;
+			color: $mainBlue;
+			text-decoration: none;
+			padding-top: 20px;
+		}	
+	}
+
+	&__sub-nav {
+
+
+		ul {
+			display: inline-block;
+			margin: 0;
+			margin-bottom: 2rem;
+			@mixin clearfix
+		}
+
+		li {
+			list-style: none;
+			float: left;
+			padding-right: 1.875rem;
+			font-family: 'rubik', sans-serif;
+			font-weight: 400;
+			font-size: .9rem;
+			color: #8b8b8b;
+
+		}
+
+		a {
+			font-family: 'rubik', sans-serif;
+			font-weight: 400;
+			font-size: .9rem;
+			color: #8b8b8b;
+			text-decoration: none;
+			padding-top: 20px;
+		}	
+	}
+}

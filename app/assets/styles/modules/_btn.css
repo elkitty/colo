@@ -8,7 +8,8 @@
 
 	&__blue {
 		background-color: $mainBlue;
-		color:  #fff;
+		color:  #ce4ecb;
+		padding: .2rem 1.2rem;
 	}
 
 	&__features {
