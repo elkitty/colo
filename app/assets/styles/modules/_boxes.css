@@ -1,9 +1,12 @@
 .boxes {
 	background-color: #f0f0ef;
 	text-align: center;
-	padding: 0 2.9rem 2rem 2.9rem;
+	padding: 0 1.5rem 1.5rem 1.5rem;
 	overflow: hidden;
-
+	
+	@mixin atSmall {
+		padding: 0 2.9rem 2rem 2.9rem;
+	}
 	
 	&__logos {
 		display: flex;

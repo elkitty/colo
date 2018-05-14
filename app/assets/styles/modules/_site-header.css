@@ -2,7 +2,12 @@
 	position: absolute;
 	z-index: 2;
 	width: 100%;
-	top: 3.75rem;
+	top: 1rem;
+
+		@mixin atMedium {
+			width: 100%;
+			top: 3.75rem;
+			}
 
 	&__btn-container {
 		float: right;
@@ -13,10 +18,66 @@
 		display: inline-block;
 		/*position: static;*/
 		/*background: yellow;*/
-		width: 12rem;
+		width: 8rem;
 		/*top: 3.75rem;*/
+
+		@mixin atMedium {
+			display: inline-block;
+			width: 12rem;
+			}
 	}
 
+	
+	&__menu-icon {
+		width: 40px;
+		height: 30px;
+		background-color: none;
+		position: absolute;
+		top:0px;
+		right: 0px;
+
+		
+  
+	 
+		  line-height:30px;
+		  padding:5px 5px 0px 15px;
+		  color:#fff;
+		  border:0;
+		  font-size:1.4em;
+		  font-weight:regular;
+		  cursor:pointer;
+		  outline:none;
+		  z-index:100;
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+		@mixin atMedium {
+			display: none;
+			
+			}
+	}
+
+
+
+	&__menu-content {
+		display: none;
+
+		@mixin atMedium {
+			display: inline-block;
+			float: right;
+		}
+	}
 
 
 }

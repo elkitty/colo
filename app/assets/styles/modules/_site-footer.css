@@ -5,8 +5,11 @@
 	&__logo {
 		display: inline-block;
 		width: 10.9rem;
-		/*top: 3.75rem;*/
-		margin-bottom: 4rem;
+		margin-bottom: 1rem;
+
+		@mixin atSmall {
+			margin-bottom: 4rem;
+			}		
 	}
 	
 	
@@ -16,25 +19,46 @@
 		ul {
 			display: inline-block;
 			margin: 0;
-			margin-bottom: 2rem;
+			margin-bottom: 0.6rem;
 			@mixin clearfix
+
+			@mixin atSmall {
+				font-size: 1.2rem;
+				margin-bottom: 2rem;
+				}
 		}
+
 
 		li {
 			list-style: none;
-			float: left;
+			float: none;
 			padding-right: 1.875rem;
+			padding-bottom: .5rem;
+
+			@mixin atSmall {
+				float: left;
+			}
 
 		}
 
 		a {
 			font-family: 'rubik', sans-serif;
 			font-weight: 400;
-			font-size: 1.2rem;
+			font-size: .9rem;
 			color: $mainBlue;
 			text-decoration: none;
 			padding-top: 20px;
-		}	
+			
+			@mixin atSmall {
+				font-size: 1.2rem;
+			}
+
+
+
+		}
+
+		
+
 	}
 
 	&__sub-nav {
@@ -43,18 +67,29 @@
 		ul {
 			display: inline-block;
 			margin: 0;
-			margin-bottom: 2rem;
+			margin-bottom: .5rem;
 			@mixin clearfix
+			text-align: center;
 		}
 
 		li {
+			color: #8b8b8b;
 			list-style: none;
-			float: left;
+			float: none;
+			padding-bottom: .5rem;
 			padding-right: 1.875rem;
 			font-family: 'rubik', sans-serif;
 			font-weight: 400;
 			font-size: .9rem;
-			color: #8b8b8b;
+			text-align: center;
+			
+			
+
+				@mixin atSmall {
+				float: left;
+				font-size: .9rem;
+				padding-right: 1.875rem;
+				}
 
 		}
 
