@@ -10,10 +10,11 @@
 @import "modules/_row";
 @import "modules/_features";
 @import "modules/_software";
-@import "modules/_plataformas";
+@import "modules/_boxes";
 @import "modules/_site-header";
 @import "modules/_primary-nav";
 @import "modules/_site-footer";
+@import "modules/_box-shadow";
 
 
 

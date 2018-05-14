@@ -2,13 +2,22 @@
 	position: relative;
 
 
+	&__image {
+		display: block;
+
+	}
+
 	&__text-content {
 		position: absolute;
 		top: 50%;
-		transform: translateY(-30%);
+		transform: translateY(-50%);
 		left: 0;
 		width: 100%;
 		text-align: center;
+
+		@mixin atSmall {
+			transform: translateY(-30%);
+		}
 	}
 
 
@@ -43,7 +52,7 @@
 		background-color: $mainBlue;
 		opacity: .7;
 		position: absolute;
-		top: -4px;
+		top: 0px;
 		overflow: hidden;
 
 

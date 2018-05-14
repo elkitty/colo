@@ -32,16 +32,14 @@
   </header>
 
   <div class="large-hero">
-    <div class="large-hero__background-cont">
-      <picture>
-        <source srcset="assets/images/hero--large.jpg" media="(min-width: 1380px)">
-        <source srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
-        <source srcset="assets/images/hero--small.jpg" media="(min-width: 640px)">
-        <img src="assets/images/hero--smaller.jpg" alt="Cologistics Warehouse">
-      </picture>
-      <div class="large-hero__color-overlay">
-      </div>
-    </div> 
+    <picture>
+      <source srcset="assets/images/hero--large.jpg" media="(min-width: 1380px)">
+      <source srcset="assets/images/hero--medium.jpg" media="(min-width: 990px)">
+      <source srcset="assets/images/hero--small.jpg" media="(min-width: 640px)">
+      <img srcset="assets/images/hero--smaller.jpg" alt="Cologistics Warehouse" class="large-hero__image">
+    </picture>
+    <div class="large-hero__color-overlay">
+    </div>
     <div class="large-hero__text-content">
       <div class="wrapper">  
         <h1 class="large-hero__title">Servicios de Logística a la Medida de tu Negocio</h1>
@@ -49,61 +47,57 @@
     </div>
   </div>
 
-  <div id="diferencial" class="page-section">
-
+  <div id="features" class="page-section">
     <div class="wrapper">
       <h2 class="headline headline__centered headline__b-margin-small">Lorem ipsum dolor sit amet, consectetur.</h2>
       <h3 class="headline headline__centered headline__small headline__b-margin-large">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rutrum.</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus sapien ac justo porttitor, non facilisis augue fermentum. Aenean facilisis erat id sapien tincidunt tempus. Praesent nibh nisi, ultricies a.</p>
-    </div>
-  </div>
-
-  <div id="features">
-    <div class="wrapper wrapper__b-margin">
-      <div class="row row--gutters row--equal-height-at-medium">
+      <p class="features__p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dapibus sapien ac justo porttitor, non facilisis augue fermentum. Aenean facilisis erat id sapien tincidunt tempus. Praesent nibh nisi, ultricies a.</p>
+    
+      <div class="row row__gutters row__equal-height-at-medium">
         <div class="row__medium-4">
-          <div class="features">
+          <div class="features b-shadow">
             <h2 class="features__title">Pick & Pack y Despacho:</h2>
             <h3 class="features__subtitle">Escalable, Profesional y Accesible.</h3>
-            <p class="features__p">Cologistics ofrece un servicio de pick, pack y despacho de punta a punta. Al tercerizar el fulfilment de sus órdenes y el procesamieno de las devoluciones, podrás enfocarte en el crecimiento de tu negocio.</p>
+            <p class="features__p__box">Cologistics ofrece un servicio de pick, pack y despacho de punta a punta. Al tercerizar el fulfilment de sus órdenes y el procesamieno de las devoluciones, podrás enfocarte en el crecimiento de tu negocio.</p>
             <a href="#" class="btn btn__features">BENEFICIOS</a>
           </div>
         </div>
+
         <div class="row__medium-4">
-          <div class="features features__yellow">
+          <div class="features features__yellow b-shadow">
             <h2 class="features__title">Warehousing Virtual:</h2>
             <h3 class="features__subtitle">Basado en la nube, con cualquier dispositivo en cualquier momento</h3>
-            <p class="features__p">Nuestro software propietario está basado en la nube y está disponible en cualquier dispositivo. Vas a poder manejar tu inventario, observar el progreso de tus órdenes y administrar las devoluciones en tiempo real, desde el lugar en donde estés.</p>
-            <a href="#" class="btn btn__features" >CARACTERÍSTICAS</a>
-        </div>
-        </div>
-          <div class="row__medium-4">
-            <div class="features features__red">
-              <h2 class="features__title">Cross Docking Simple:</h2>
-              <h3 class="features__subtitle">Procesamiento eficiente de órdenes</h3>
-              <p class="features__p">Podemos procesar las órdenes directamente desde tus proveedores y redistribuirlas a tus clientes, integrándonos a cualquier plataforma de ventas on-line.</p>
-            </div>
-          </div> 
-        </div>  
-      </div>
-    </div>
-  </div>
-  <div id="plataformas">
-    <div class="wrapper wrapper__b-margin">
-      <div class="plataformas">
-        <h2 class="headline headline__centered headline__t-margin-large headline__b-margin-small">Integrados con las principales plataformas de venta on-line</h2>
-          <div class="plataformas__box">
-            <div><img class="plataformas__logo" src="assets/images/logos/plataformas/magento.svg" alt="Magento" src="#"/></div>
-            <div><img class="plataformas__logo" src="assets/images/logos/plataformas/mercado-libre.svg" alt="Mercado Libre" src="#"/></div>
-            <div><img class="plataformas__logo" src="assets/images/logos/plataformas/prestashop.svg" alt="Presta Shop" src="#"/></div>
+            <p class="features__p__box">Nuestro software propietario está basado en la nube y está disponible en cualquier dispositivo. Vas a poder manejar tu inventario, observar el progreso de tus órdenes y administrar las devoluciones en tiempo real, desde el lugar en donde estés.</p>
+            <a href="#" class="btn btn__features">CARACTERÍSTICAS</a>
           </div>
-      </div>
+        </div>
+ 
+        <div class="row__medium-4">
+          <div class="features features__red b-shadow">
+            <h2 class="features__title">Cross Docking Simple:</h2>
+            <h3 class="features__subtitle">Procesamiento eficiente de órdenes</h3>
+            <p class="features__p__box">Podemos procesar las órdenes directamente desde tus proveedores y redistribuirlas a tus clientes, integrándonos a cualquier plataforma de ventas on-line.</p>
+          </div>
+        </div> 
+      </div>  
     </div>
   </div>
 
-  <div id="software">
-    <div class="wrapper wrapper__b-margin">
-      <div class="row row--gutters row--equal-height-at-medium">
+  <div id="plataformas" class="page-section">
+    <div class="wrapper">
+      <div class="boxes b-shadow">
+        <h2 class="headline headline__centered headline__t-margin-large headline__b-margin-small">Integrados con las principales plataformas de venta on-line</h2>
+        <div class="boxes__logos">
+          <div><img class="plataformas__logo" src="assets/images/logos/plataformas/magento.svg" alt="Magento" src="#"/></div>
+          <div><img class="plataformas__logo" src="assets/images/logos/plataformas/mercado-libre.svg" alt="Mercado Libre" src="#"/></div>
+          <div><img class="plataformas__logo" src="assets/images/logos/plataformas/prestashop.svg" alt="Presta Shop" src="#"/></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="software" class="page-section">
+    <div class="wrapper">
+      <div class="row row__equal-height-at-medium b-shadow">
         <div class="row__medium-6">
           <div class="software">
             <h2 class="software__title">Software desarrollado desde la experiencia.</h2>
@@ -113,18 +107,22 @@
           </div>
         </div>
         <div class="row__medium-6">
-          <picture>
-          <source srcset="assets/images/soft--small.jpg" media="(min-with: 800px)">
-          <img src="assets/images/soft--large.jpg" alt="view desktop cologistics software"></picture>
+            <picture class="software__picture-box">
+            <source srcset="assets/images/software.jpg" media="(min-width: 1024px)">
+            <source srcset="assets/images/software--tablet.jpg" media="(min-width: 768px)">
+            <source srcset="assets/images/software--landscape.jpg" media="(min-width: 425px)">
+            <img srcset="assets/images/software--small.jpg" alt="view desktop cologistics software" class="software__image">
+            </picture>
         </div>
-    </div>  
+      </div>
+    </div>    
   </div>
 
-  <div id="socios">
-    <div class="wrapper wrapper__b-margin">
-      <div class="plataformas">
+   <div id="socios" class="page-section page-section__last">
+    <div class="wrapper">
+      <div class="boxes b-shadow">
         <h2 class="headline headline__centered headline__t-margin-large headline__b-margin-small">Completá tus órdenes con nuestros socios</h2>
-        <div class="plataformas__box">
+        <div class="boxes__logos">
           <div><img src="assets/images/logos/socios/jetpack.png" alt="Jetpack"></div>
           <div><img src="assets/images/logos/socios/correo-argentino.png" alt="Correo Argentino"></div>
           <div><img src="assets/images/logos/socios/chevalier.png" alt="Chevalier"></div>
