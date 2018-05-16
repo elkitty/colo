@@ -12,4 +12,12 @@
 			padding-bottom: 4rem;
 		}
 	}
+
+	&__first {
+		padding-top: 1rem;
+
+		@mixin atMedium {
+			padding-top: 2rem;
+		}
+	}
 }

@@ -1,6 +1,6 @@
 .site-header {
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 	width: 100%;
 	top: 1rem;
 
@@ -19,56 +19,62 @@
 		/*position: static;*/
 		/*background: yellow;*/
 		width: 8rem;
+		padding-left: 18px;
 		/*top: 3.75rem;*/
 
 		@mixin atMedium {
 			display: inline-block;
 			width: 12rem;
+			padding-left: 0px;
 			}
 	}
 
 	
 	&__menu-icon {
-		width: 40px;
-		height: 30px;
-		background-color: none;
-		position: absolute;
-		top:0px;
-		right: 0px;
+		width: 20px;
+		height: 20px;
+		position:absolute;
+		z-index: 10;
+		top:6px;
+		right:30px;
+
+		&::before {
+			content: "";
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 30px;
+			height: 4px;
+			background-color: white;
+			border-radius: 4px;
+		}
+
+		&__hamburger {
+			position: absolute;
+			top: 8px;
+			left: 0;
+			width: 30px;
+			height: 4px;
+			background-color: white;
+			border-radius: 4px;
+		}
+
+		&::after {
+			content: "";
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			width: 30px;
+			height: 4px;
+			background-color: white;
+			border-radius: 4px;
+		}
 
 		
-  
-	 
-		  line-height:30px;
-		  padding:5px 5px 0px 15px;
-		  color:#fff;
-		  border:0;
-		  font-size:1.4em;
-		  font-weight:regular;
-		  cursor:pointer;
-		  outline:none;
-		  z-index:100;
-
-		
-
-
-
-
-
-
-
-
-
-
-
-
 		@mixin atMedium {
 			display: none;
-			
-			}
+		}
 	}
-
-
 
 	&__menu-content {
 		display: none;

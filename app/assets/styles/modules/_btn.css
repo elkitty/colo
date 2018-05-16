@@ -1,20 +1,30 @@
 .btn {
-	background-color: #fff;
-	color: $mainBlue;
+	background-color:#e8a223;
 	text-decoration: none;
 	padding: .75rem 1.2rem;
 	display: inline-block;
+	/*box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #e8a223 5%, #f1c77b 100%);*/
+	border-radius:3px;
+	/*border:1px solid #e8a223;*/
+	cursor:pointer;
+	color:#ffffff;
+	/*font-size:13px;*/
+	text-decoration:none;
+	/*text-shadow:0px 1px 0px #154682;*/
 
 
 	&__blue {
 		background-color: $mainBlue;
-		color:  #ce4ecb;
+		color:  #ffffff;
 		padding: .2rem 1.2rem;
+		background-color:none;
 	}
 
 	&__features {
 		background-color: transparent;
 		/*margin: 0rem auto 2.3rem auto;*/
+		color: $mainBlue;
 	}
 
 

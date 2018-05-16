@@ -1,0 +1,106 @@
+.seccion {
+	background-color: #eeefed;
+	padding: 0 1.5rem 2.5rem 1.5rem;
+	text-align: center;
+	width:100%;
+
+	&__landscape {
+			background-color: #eeefed;
+
+		}
+	
+	@mixin atSmall {
+		padding: 0 2.9rem 3rem 2.9rem;
+		}
+	
+
+
+	&__picture-box {
+	  	background-color: #fafaf9;
+	  	display: flex;
+  		align-items: center;
+  		justify-content: center;
+  		width: 100%;
+  		padding: 2rem 0 2rem 0rem;
+	
+
+		&__landscape {
+			/*max-height: 100%;*/
+			width: auto;
+			padding: 0;
+			display: flex;
+		}
+
+	}
+
+
+
+	&__image {
+		max-width: 60%;
+	}
+
+	&__image__landscape {
+					max-width: 100%;
+		}
+
+
+	&__title {
+		color: $mainBlue;
+		font-weight: 100;
+		font-size: 1.8rem;
+		text-align: center;
+		padding-top: 2.125rem;
+		margin: 0px;
+
+		@mixin atSmall {
+			font-size: 2.2rem;
+			text-align: center;
+			padding-top: 3.125rem;
+		}
+
+		&__landscape {
+			padding-bottom: 2.125rem;
+		}
+
+		&__middle {
+			padding-top: 1.125rem;
+			padding-bottom: 3.125rem;
+		}
+	}
+
+
+	&__subtitle {
+		font-size: 1.45rem;
+		color: $mainBlue;
+		text-align: center;
+		font-weight: 300;
+		margin: 1rem 0 2rem 0;
+	}
+
+	
+
+	&__p {
+		font-size: 1.2rem;
+		line-height: 1.4;
+		color: #33333;
+		text-align: center;
+		font-weight: 100;
+		max-width: 450px;
+		padding-bottom: 5px;
+		margin: 0 auto 0 auto;
+	}
+
+	&__p__long {
+			max-width: 850px;
+			padding-bottom: 40px;
+
+		}
+
+	
+
+
+
+
+
+}
+
