@@ -1,3 +1,9 @@
 var Person = require('./modules/Person');
 
-console.log("la cnocha de tu madre");
+var john = new Person("John Doe", "blue");
+john.greet();
+
+var jane = new Person("Janer Smith", "green");
+jane.greet();
+
+	
